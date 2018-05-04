@@ -3,11 +3,7 @@ $(document).ready(function(){
 
      
        
-    var randomToMatch = Math.floor(Math.random() * 102) + 19;
-    console.log(randomToMatch);
-  
     
-    $("#match-or-die").text(randomToMatch);
 
     var coins = $("#coins");
 
@@ -29,6 +25,15 @@ $(document).ready(function(){
 
     }
 
+    $("#press").on("click", function () {
+    
+        var randomToMatch = Math.floor(Math.random() * 102) + 19;
+        console.log(randomToMatch);
+  
+    
+    $("#match-or-die").text(randomToMatch);
+
+    
 
     coins.on("click", ".coins-photo", function () {
 
@@ -47,11 +52,12 @@ $(document).ready(function(){
             alert("Ouch!");
         
             counter = 0;
+            $("#total").text(counter);
         }
     
      
         
         })
-    
+    })
 
 });
