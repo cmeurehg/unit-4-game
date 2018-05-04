@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device=width, initial-scale=1, shrink-to-fit=no">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css" integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4" crossorigin="anonymous"></link>
+        <link rel="stylesheet" href="assets/css/reset.css">
+        <link rel="stylesheet" href="assets/css/style.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+        <title>Treasure Coins</title>
+
+</head>
+
+<body>
+        <div id="jumbo-panel">
+                <div class="jumbotron">
+                        <h1 class="display-4">Treasure Hunt!</h1><br><br>
+                        <p class="lead">You have found several treasures.  It just turns out that they belonged to a group of pirates.</p><br>
+                        <p class="lead">Now you have to return the coins.  You told them you had a number of gold coins without counting them.</p><br>
+                        <p class="lead">The pirates expect you to give them that number.  They won't let you go until you do it.</p><br>
+                        <p class="lead">But... if you accidentally give them more, they will know you lied and that you had actually found more coins.</p>
+                        <hr class="my-4">
+        
+                        <a id="press" class="btn btn-primary btn-lg" href="#" role="button">Click to Play</a>
+                </div>
+        </div>
+
+        <div class="container">
+                <div class="row">
+                  <div class="col-md-3">
+                        <h4>Match or Die: <span id="match-or-die"></span></h4>
+                  </div>
+                  
+                  <div class="col-md-3">
+                        <h4>Close calls: <span id="saved"></span></h4>
+                  </div>
+                  
+                  <div class="col-md-3">
+                        <h4>Slashes: <span id="slashes"></span></h4>
+                  </div>
+
+                  <div class="col-md-3">
+                        <h4>Total: <span id="total"></span></h4>
+                  </div>
+                  
+                </div>
+        </div>
+
+        <div id="coin-base">
+                
+                <div class="row">
+                        <div id="coins">
+
+                        </div>
+                </div>
+        </div>
+
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js" integrity="sha384-cs/chFZiN24E4KMATLdqdvsezGxaGsi4hLGOzlXwp5UZB1LY//20VyM2taTB4QvJ" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js" integrity="sha384-uefMccjFJAIv6A+rW+L4AHf99KvxDjWSu1z9VI8SKNVmz4sk7buKt/6v9KI65qnm" crossorigin="anonymous"></script>
+        <script src="assets/javascript/game.js"></script>
+</body>
+
+</html>
