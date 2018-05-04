@@ -1,17 +1,48 @@
+.display-4 {
+    font-family: "Arial", "Helvetica", "sans-serif";
+    font-size: 60px;
+    color: rgb(94, 77, 77);
+}
+
+.card-image {
+    
+    overflow: 0px;
+    padding: 0px;
+    border: 0px;
+    margin: 0px;
+    align-self: center;
+}
+
+.jumbotron {
+    padding: 10px;
+    margin: 30px;
+}
+
+.lead {
+    font-family: "Arial", "Helvetica", "sans-serif";
+    color: rgb(114, 106, 106);
+    margin-left: 30px;
+}
+
 .container {
     background-color: rgb(175, 90, 175);
     padding: 30px;
     margin: 20px;
     border: 0;
-    width: 1000px;
+    width: auto;
 }
 
 img {
-    height: 100px;
-    width: 200px;
+    height: 120px;
+    width: 250px;
     margin: 10px;
     padding: 0px;
     border: 0;
+}
+
+h1 {
+    padding: 0px;
+    margin-left: 30px;
 }
 
 h4 {
@@ -24,5 +55,5 @@ h4 {
     margin: 0;
     margin-left: 30px;
     border: 0;
-    width: 1000px;
+    width: auto;
 }
