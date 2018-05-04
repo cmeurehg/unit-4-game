@@ -4,18 +4,16 @@
     color: rgb(94, 77, 77);
 }
 
-.card-image {
+.card-img {
     
-    overflow: 0px;
-    padding: 0px;
-    border: 0px;
-    margin: 0px;
-    align-self: center;
+    width: 95%;
 }
 
 .jumbotron {
     padding: 10px;
-    margin: 30px;
+    margin: 10px;
+    border: 10px;
+    width: 90%;
 }
 
 .lead {
@@ -29,7 +27,7 @@
     padding: 30px;
     margin: 20px;
     border: 0;
-    width: auto;
+    width: 90%;
 }
 
 img {
@@ -47,6 +45,8 @@ h1 {
 
 h4 {
     color: white;
+    font-family: "Arial", "Helvetica", "sans-serif";
+    size: 40px;
 }
 
 #coin-base {
