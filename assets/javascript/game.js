@@ -46,6 +46,9 @@ $(document).ready(function(){
             countSaves ++;
             $("#saved").text(countSaves);
             alert("Lucky You!");
+            counter = 0;
+            $("#total").text(counter);
+            
         } else if (counter >= randomToMatch) {
             countSlashes ++;
             $("#slashes").text(countSlashes);
@@ -53,6 +56,7 @@ $(document).ready(function(){
         
             counter = 0;
             $("#total").text(counter);
+            
         }
     
      
